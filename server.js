@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
-app.use("/api", router);
+app.use("/users", router);
 
 // NotFound & Error handling
 app.use(notFound);
