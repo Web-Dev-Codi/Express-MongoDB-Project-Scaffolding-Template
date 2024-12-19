@@ -7,6 +7,11 @@ const users = [
     password: bcrypt.hashSync("123456", 10),
   },
   {
+    name: "Robert Baratheon",
+    email: "mark_addy@gameofthron.es",
+    password: bcrypt.hashSync("123456", 10),
+  },
+  {
     name: "Margaery Tyrell",
     email: "natalie_dormer@gameofthron.es",
     password: bcrypt.hashSync("123456", 10),
